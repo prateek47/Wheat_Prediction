@@ -16,15 +16,31 @@ The data can be obtained from
 2. All row with 'NA' values are removed ( The number of rows are significantly less, 615 rows in 360,042 rows)
 3. I split the data in training and test set ( test split = 0.3)
 4. I implemented different regression models for prediction:-
+
      a.) RandomForest Regression
      b.) Gradient Boosting Regression
      c.) Feed-Forward Neural Network regression
-     d.) K Nearest Neighbours
-
+     d.) K Nearest Neighbour regression
 5. Metric used for evaluation is "Mean squared error"
 
 ## Results
 1. The best approach among all of these was RandomForest Regression with a MSE value of 32
-The MSE values for all the models are listed in the table below:
+
+#### The MSE values for all the models are listed in the table below:
+
+|S.No|                   Models               |     MSE       |
+|----| -------------------------------------: |:-------------:| 
+| 1. | RandomForest Regression                |     32.       |
+| 2. | Gradient Boosting Regression           |     62.33     |
+| 3. | Feed-Forward Neural Network Regression |               |
+| 4. | K Nearest Neighbour Regression         |     41.22     |
+
+## Technical Choices
+More detail in the ipython notebook itself...
+
+## Key Findings and Insights
+1. 
+
+## Improvements
 
 
