@@ -15,11 +15,12 @@ The data can be obtained from
 1. Firstly, all the location based fields like County, state, latitude, longitude is removed and the data for both the years are joined to make a single training dataset.
 2. All row with 'NA' values are removed ( The number of rows are significantly less, 615 rows in 360,042 rows)
 3. I split the data in training and test set ( test split = 0.3)
-4. I implemented different regression models for prediction:
-    a.) RandomForest Regression
-    b.) Gradient Boosting Regression
-    c.) Feed-Forward Neural Network regression
-    d.) K Nearest Neighbours
+4. I implemented different regression models for prediction:-
+     a.) RandomForest Regression
+     b.) Gradient Boosting Regression
+     c.) Feed-Forward Neural Network regression
+     d.) K Nearest Neighbours
+
 5. Metric used for evaluation is "Mean squared error"
 
 ## Results
