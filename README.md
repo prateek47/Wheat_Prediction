@@ -24,7 +24,7 @@ The data can be obtained from
 5. Metric used for evaluation is "Mean squared error"
 
 ## Results
-1. The best approach among all of these was RandomForest Regression with a MSE value of 32
+** The best approach among all of these was RandomForest Regression with a MSE value of 32 **
 
 #### The MSE values for all the models are listed in the table below:
 
@@ -32,7 +32,7 @@ The data can be obtained from
 |----| -------------------------------------: |:-------------:| 
 | 1. | RandomForest Regression                |     32.54     |
 | 2. | Gradient Boosting Regression           |     46.57     |
-| 3. | Feed-Forward Neural Network Regression |               |
+| 3. | Feed-Forward Neural Network Regression |     129       |
 | 4. | K Nearest Neighbour Regression         |     41.16     |
 
 ## Technical Choices
@@ -53,4 +53,5 @@ County wise(Census Data) on agriculture (2007, adjusted) --> https://www.census.
 1. Total number of farms in each county( Assumption: The more the number of farms the more the yield){ The above data gives us 2007 census (adjusted)
 2. Average age of farm operators( Hypothesis: If average age should be in between 30-40, the yield should increase, as this age group have a unique combination of youthful energy and experience, while higher average age, shows that, the youth is losing interest and that would have detrimental effect on farming.)
 3. Average size of farms( Hypothesis: As the average size increases, the yield should increase)
+4. The Feed-Forward Neural Network shows the least predictive power, but I am confident with time it could be further optimized to perform better( XGBoost also did not perform quite well in the first iteration but after optimizing the hyper parameters associated with it, the performance improved)
 
